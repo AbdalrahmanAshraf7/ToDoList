@@ -1,0 +1,14 @@
+{
+
+  "compilerOptions": {
+
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "es2020",
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+   "include": ["src/**/*", "index.ts" , "./routes/test"]
+
+
+}

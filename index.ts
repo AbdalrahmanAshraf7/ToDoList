@@ -2,14 +2,14 @@ import express from 'express';
 import cors from "cors";
 import env from "dotenv"
 import mongoose from 'mongoose';
-import errorHandler from "../MiddleWares/errorMiddleWare"
+import errorHandler from "./MiddleWares/errorMiddleWare"
 env.config()
 
 
 ///////routes////////
-import List from "../routes/missions";
-import Task from "../routes/tasks"
-import Auth from "../routes/auth"
+import List from "./routes/missions";
+import Task from "./routes/tasks"
+import Auth from "./routes/auth"
 ///////routes////////
 
 

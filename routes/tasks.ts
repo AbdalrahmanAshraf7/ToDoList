@@ -11,7 +11,7 @@ const route: Router = express.Router();
 
 
 // add a task to a mission
-route.put("/addtask/:missionid",authHandler,missionId,asynHandler(
+route.post("/addtask/:missionid",authHandler,missionId,asynHandler(
     async(req:Request,res:Response)=>{
 
         let list = await List.findOneAndUpdate(
